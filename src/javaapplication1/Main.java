@@ -13,11 +13,11 @@ public class Main {
         switch (option) {
 
             case 1:
-                System.out.println("No hiciste el ej 1 :)");
+                Ej1.ejercicio1();
                 break;
 
             case 2:
-                System.out.println("No hiciste el ej 2 :)");
+                Ej2.ejercicio2();
                 break;
 
             case 3:
@@ -47,6 +47,8 @@ public class Main {
             case 9:
                 Ej9.ejercicio9();
                 break;
+                
+            case 10:
 
             default:
                 System.out.println("Chikitin pero que mamada mandsaste lol ??");
