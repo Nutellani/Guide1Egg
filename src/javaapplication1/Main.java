@@ -47,8 +47,18 @@ public class Main {
             case 9:
                 Ej9.ejercicio9();
                 break;
-                
+
             case 10:
+                // Ej10.ejercicio10();
+                break;
+
+            case 11:
+                Ej11.ejercicio11();
+                break;
+                
+            case 12:
+                Ej12.ejercicio12();
+                break;
 
             default:
                 System.out.println("Chikitin pero que mamada mandsaste lol ??");
