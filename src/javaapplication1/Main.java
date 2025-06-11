@@ -60,6 +60,10 @@ public class Main {
                 Ej12.ejercicio12();
                 break;
 
+            case 13:
+                Ej13.ejercicio13();
+                break;
+                        
             default:
                 System.out.println("Chikitin pero que mamada mandsaste lol ??");
                 break;
