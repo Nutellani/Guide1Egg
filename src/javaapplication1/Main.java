@@ -49,7 +49,7 @@ public class Main {
                 break;
 
             case 10:
-                // Ej10.ejercicio10();
+                Ej10.ejercicio10();
                 break;
 
             case 11:
@@ -63,7 +63,7 @@ public class Main {
             case 13:
                 Ej13.ejercicio13();
                 break;
-                        
+                
             default:
                 System.out.println("Chikitin pero que mamada mandsaste lol ??");
                 break;
