@@ -64,8 +64,12 @@ public class Main {
                 Ej13.ejercicio13();
                 break;
                 
+            case 14:
+                Ej14.ejercicio14();
+                break;
+                
             default:
-                System.out.println("Chikitin pero que mamada mandsaste lol ??");
+                System.out.println("Chikitin pero que mamada, te olvidaste de poner ese ejercicio en el Switch?? lol");
                 break;
         }
     }

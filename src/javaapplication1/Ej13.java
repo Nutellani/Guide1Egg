@@ -13,6 +13,7 @@ public class Ej13 {
         
         Double limit = askDouble("Metele que son tortitas, decime un numero para usarlo de limite...");
         Double total = 0d;  // los Double por defecto son null, por ende se tienen que inicializar. Al inicializarlos con 0d estoy indicando que es un double ;)
+        
         do {
             total += askDouble("Chikitin tirá numeros para superar ese límite :))");
         } while (total<limit);
@@ -20,5 +21,4 @@ public class Ej13 {
         System.out.println("Moy bieeeen, has sali2 del bucle, ya pasaste tu límite :))");
         
     }
-    
 }
