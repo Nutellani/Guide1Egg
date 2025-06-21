@@ -37,8 +37,10 @@ public class Ej15J {
 
     public static void ejercicio15J() {
         int opcion;
+        double num1;
+        double num2;
         boolean quiereTerminar = false;
-        double num1, num2;
+        
         do {
             num1 = ScannerService.askDouble("Ingrese el primer número: ");
             num2 = ScannerService.askDouble("Ingrese el segundo: ");
@@ -50,18 +52,23 @@ public class Ej15J {
                 case 1: // Sumar
                     sumar(num1, num2);
                     break;
+                    
                 case 2: // Restar
                     restar(num1, num2);
                     break;
+                    
                 case 3: // Multiplicar
                     multiplicar(num1, num2);
                     break;
+                    
                 case 4: // Dividir
                     dividir(num1, num2);
                     break;
-                case 5:
+                    
+                case 5: // Salir
                     quiereTerminar = consultarSalida();
                     break;
+                    
                 default:
                     System.out.println("Opción inválida, reintente");
             }
@@ -69,8 +76,10 @@ public class Ej15J {
             if (!quiereTerminar) {
                 enterParaContinuar();
             }
+            
         } while (!quiereTerminar);
-
+        
+        System.out.println("Gracias por estar!");
     }
 
     private static boolean consultarSalida() {
