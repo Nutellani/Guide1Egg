@@ -22,7 +22,8 @@ public class Ej141 {
                 break; // El break interrumpe el bucle y continua con la ejecucion fuera del mismo
             } 
             if (number < 0) {
-                continue; // El continue ignora todo lo que contiene debajo para esa iteración del bucle y continua en la siguiente iteracion dentro del mismo
+                continue; /* El continue ignora todo lo que contiene debajo para esa iteración del bucle y continua en la
+                siguiente iteracion dentro del mismo bucle*/
             }
 
             total += number;
@@ -34,6 +35,8 @@ public class Ej141 {
 
     }
 
+    //////////////////////////////// Aux Methods /////////////////////////////////
+    
     private static Double verifyEj14() {
 
         Double number;

@@ -72,6 +72,14 @@ public class Main {
                 Ej141.ejercicio141();
                 break;
                 
+            case 15:
+                Ej15.ejercicio15();
+                break;
+                
+            case 151:
+                Ej15J.ejercicio15J();
+                break;
+                
             default:
                 System.out.println("Chikitin pero que mamada, te olvidaste de poner ese ejercicio en el Switch?? lol");
                 break;
