@@ -83,6 +83,10 @@ public class Main {
             case 16:
                 Ej16.ejercicio16();
                 break;
+
+            case 17:
+                Ej17.ejercicio17();
+                break;
                 
             default:
                 System.out.println("Chikitin pero que mamada, te olvidaste de poner ese ejercicio en el Switch?? lol");
