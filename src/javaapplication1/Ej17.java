@@ -22,29 +22,23 @@ public class Ej17 {
         squareSize = verifyInt(squareSize);
         squareSize = floor(squareSize);
 
-        if (squareSize == 1) {
-            System.out.println("*");
-        } else {
+        for (int i = 0; i < squareSize; i++) {
 
-            for (int i = 0; i < squareSize; i++) {
+            for (int j = 0; j < squareSize; j++) {
 
-                for (int j = 0; j < squareSize; j++) {
+                if (i == 0 || i == squareSize - 1) {
+                    System.out.print("* ");
+                } else {
 
-                    if (i==0 || i==squareSize-1) {
+                    if (j == 0 || j == squareSize - 1) {
                         System.out.print("* ");
                     } else {
-                    
-                        if (j==0 || j== squareSize-1) {
-                            System.out.print("* ");
-                        } else {
-                            System.out.print("  ");
-                        }
+                        System.out.print("  ");
                     }
-
                 }
-                System.out.println("");
-            }
 
+            }
+            System.out.println("");
         }
 
     }
