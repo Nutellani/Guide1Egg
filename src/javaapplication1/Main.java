@@ -92,8 +92,12 @@ public class Main {
                 Ej18.ejercicio18();
                 break;
                 
+            case 19:
+                Ej19.ejercicio19();
+                break;
+                
             default:
-                System.out.println("Chikitin pero que mamada, te olvidaste de poner ese ejercicio en el Switch?? lol");
+                System.out.println("Que pasó chikitin, te olvidaste de poner ese ejercicio en el Switch?? lol");
                 break;
         }
     }
