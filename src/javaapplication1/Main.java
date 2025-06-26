@@ -88,6 +88,10 @@ public class Main {
                 Ej17.ejercicio17();
                 break;
                 
+            case 18:
+                Ej18.ejercicio18();
+                break;
+                
             default:
                 System.out.println("Chikitin pero que mamada, te olvidaste de poner ese ejercicio en el Switch?? lol");
                 break;

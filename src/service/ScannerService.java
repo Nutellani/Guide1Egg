@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ScannerService {
 
-    //al indicar el .useDelimeter("\n") aclaro que todos los sc.next seran hasta el ennter y no el espacio
+    //al indicar el .useDelimeter("\n") aclaro que todos los sc.next seran hasta el enter y no el espacio
     static Scanner sc = new Scanner(System.in).useDelimiter("\n");
 
     public static String askString(String mensaje) {
