@@ -55,7 +55,7 @@ public class Main {
             case 11:
                 Ej11.ejercicio11();
                 break;
-                
+
             case 12:
                 Ej12.ejercicio12();
                 break;
@@ -63,23 +63,23 @@ public class Main {
             case 13:
                 Ej13.ejercicio13();
                 break;
-                
+
             case 14:
                 Ej14.ejercicio14();
                 break;
-                
+
             case 141:
                 Ej141.ejercicio141();
                 break;
-                
+
             case 15:
                 Ej15.ejercicio15();
                 break;
-                
+
             case 151:
                 Ej15J.ejercicio15J();
                 break;
-                
+
             case 16:
                 Ej16.ejercicio16();
                 break;
@@ -87,19 +87,31 @@ public class Main {
             case 17:
                 Ej17.ejercicio17();
                 break;
-                
+
             case 18:
                 Ej18.ejercicio18();
                 break;
-                
+
             case 19:
                 Ej19.ejercicio19();
                 break;
-                
+
             case 20:
                 Ej20.ejercicio20();
                 break;
+            
+            case 21:
+                System.out.println("No hiciste este ejercicio je, pajín");
+                break;
+            
+            case 22:
+                System.out.println("No hiciste este ejercicio je, pajín");
+                break;
                 
+            case 23:
+                Ej23.ejercicio23();
+                break;
+
             default:
                 System.out.println("Que pasó chikitin, te olvidaste de poner ese ejercicio en el Switch?? lol");
                 break;
