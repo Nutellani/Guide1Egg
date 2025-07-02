@@ -14,25 +14,22 @@ public class Ej18 {
 
     public static void ejercicio18() {
 
-        System.out.println("Agrega 4 numeros pa, se escribirán tantos * como grande sea el numero :)");
-        System.out.println("");
-
         for (int i = 0; i < 4; i++) {
-
+            StringBuilder line = new StringBuilder();
             Integer number = 0;
-            number = verifyImput(number);
+            number = verifyInput(number);
             
             System.out.print(number + " ");
-
+              
             for (int j = 0; j < number; j++) {
-                System.out.print("*");
+                line.append("*");
 
             }
-            System.out.println("");
+            System.out.println(line);
         }
     }
     
-    private static Integer verifyImput(Integer number){
+    private static Integer verifyInput(Integer number){
         
         do {
             number = askDouble("Ingrese dicho numerito pero entre 1 y 20 :) si es decimal se truncará... ").intValue();

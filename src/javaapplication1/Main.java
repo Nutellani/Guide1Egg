@@ -96,6 +96,10 @@ public class Main {
                 Ej19.ejercicio19();
                 break;
                 
+            case 20:
+                Ej20.ejercicio20();
+                break;
+                
             default:
                 System.out.println("Que pasó chikitin, te olvidaste de poner ese ejercicio en el Switch?? lol");
                 break;
