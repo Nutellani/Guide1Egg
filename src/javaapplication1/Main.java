@@ -101,9 +101,13 @@ public class Main {
                 break;
             
             case 21:
-                System.out.println("No hiciste este ejercicio je, pajín");
+                Ej21.ejercicio21();
                 break;
             
+            case 211:
+                Ej21.ejercicio21();
+                break;
+                
             case 22:
                 System.out.println("No hiciste este ejercicio je, pajín");
                 break;
